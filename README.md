@@ -3,11 +3,13 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: The numbers included in naked twins should be eliminated from boxes with the same peer type(row, column, square).
+That constraint would be propagated and definitely helps to solve the problem.
+
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: Simply, adding diagonal units to the unit list, this constraint is additionally considered when DFS is operated.
 
 ### Install
 
