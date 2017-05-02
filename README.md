@@ -3,7 +3,10 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: The numbers included in naked twins should be eliminated from boxes with the same peer type(row, column, square).
+A: "Naked twins" are two cells in a row, column or square containing the same two remaining numbers. 
+If you check all the cells in a row, column or square whether two cells are same or not, you can find the "Naked twins".
+When you find the "Naked twins", you can remove a single number between duplicated two numbers.
+The numbers included in naked twins should be eliminated from boxes with the same peer type(row, column, square).
 That constraint would be propagated and definitely helps to solve the problem.
 
 
